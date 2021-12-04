@@ -1,0 +1,17 @@
+print("Select any one out of the following to view the Deatils of Food Grains : ")
+print(" 1. WHEAT \n 2. RICE \n 3. JOWAR \n 4. CORN")
+grain = int(input(" enter your choice "))
+            
+
+if grain ==1:
+    print(" your choice is Wheat  \n scientific name = Triticum. \n type = Tracheophytes. \n uses = Bread,biscuits,noodlees,muffin,etc. \n Protien = All-purpose flour,Almond flour,Bread flour,Cake flour,etc. ")
+if grain ==2:
+    print(" your choice is Rice \n scientific name = Oryza Sativa. \n type = Ceral Grain. \n uses = Health,Soups,side dishes. \n Protien = Amino Acids,2.7 Grams,etc.")
+if grain ==3:
+    print(" your choice is Jowar \n scientific name = Sorghum. \n type = Flowering crop. \n uses = Wieght loss,Health,Boost immunity,free gluteen,etc. \n Protien = 22 grams. ")
+if grain ==4:
+    print(" your choice is Oats \n scientific name = Avena sativa. \n type = Nutritional. \n uses = Livestock feeds,Breakfast,etc. \n Protien = 2.4 grams")
+    
+    
+    
+    
