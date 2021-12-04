@@ -1,0 +1,32 @@
+choice = input(" Enter any Alphabet to prints it's words : ")
+alphabet_data = {"a":"apple,allien,autocad,aeroplane,airway",
+                 "b":"blast,bomb,beautiful,brave,bullying",
+                 "c":"cute,come,climb,catch,cheerful",
+                 "d":"don,duck,dhoni,dk,demand",
+                 "e":"elepant,eagle,eleven,eight,egg",
+                 "f":"fun,fish,fool,funneral,foolish",
+                 "g":"girl,gambling,goa,good,god",
+                 "h":"horse,home,hello,how,high",
+                 "i":"ice,illegal,intellegant,intel,interpol",
+                 "j":"jack,jump,joy,jay,jeyansh",
+                 "k":"kite,kamptee,kasturi,kilo,king",
+                 "l":"lion,leep.leach,love,lonely",
+                 "m":"mine,murder,mars,marshmello,mother",
+                 "n":"night,nine,none,number,no",
+                 "o":"open,out,owl,on,osm",
+                 "p":"pump,peacock,padikal,pin,pine",
+                 "q":"quite,quick,quantum,quickly,quarntine",
+                 "r":"run,right,room,rover,raman",
+                 "s":"sun,shine,slow,sleep,sweet",
+                 "t":"taste,time,thumb,true,take,",
+                 "u":"umberalla,upon,universe,undefined,unnone",
+                 "v":"vision,value,virtue,vuernable,van",
+                 "w":"we,who,wow,wondeful,whatsup,why",
+                 "x":"xmas,xerox,xenon,xylophonex-ray",
+                 "y":"you,yaak,yum,yup,yet",
+                 "z":"zoo,zumba,zone,zigg,zero",}
+print(alphabet_data[choice])
+                 
+
+
+                   
