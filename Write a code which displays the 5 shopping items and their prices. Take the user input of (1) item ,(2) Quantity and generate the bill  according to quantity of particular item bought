@@ -1,0 +1,21 @@
+print("The Lists of Shopping Items are : \n 1. Dairymilk(100 Rs) \n 2. Waffers(10 Rs) \n 3. Bread(10 Rs) \n 4. Handwash(80 Rs) \n 5. Gogles(100 Rs)")
+item = int(input("enter your choice :"))
+quantity = int(input("Enter the Quantity of Items :"))
+
+
+def calculate_bill(quantity,price):
+    total = price * quantity
+    print("You'r total Amount to be Paid is : " +str( total))
+
+if item == 1:
+    calculate_bill(quantity,100)
+if item == 2:
+    calculate_bill(quantity,10)
+if item == 3:
+    calculate_bill(quantity,10)
+if item == 4:
+    calculate_bill(quantity,80)
+if item == 5:
+    calculate_bill(quantity,100)
+    
+    
