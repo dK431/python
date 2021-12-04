@@ -1,0 +1,15 @@
+print(" Enter the chemicals symbol  of chemicals out of following : \n Cl \n Na \n O \n F \n I \n H \n He \n Li \n Mg \n Zn \n Fe \n Bo ")
+choice = (input(" Enter the Symbol Name : "))
+symbol_data = { "Cl":"Cholrine is the chemical of name of symbol Cl",
+                "Na":"Sodium  is the chemical of name of symbol Na",
+                "O":"Oxygen  is the chemical of name of symbol O",
+                "F":"Flourine  is the chemical of name of symbol F",
+                "I":"Idoine  is the chemical of name of symbol I",
+                "H":"Hygrogen  is the chemical of name of symbol H",
+                "Li":"Lithum  is the chemical of name of symbol Li",
+                "Mg":"Magnesium  is the chemical of name of symbol Mg",
+                "Zn":"Znic  is the chemical of name of symbol Zn ",
+                "Fe":"Iron  is the chemical of name of symbol Fe",
+                "Bo":"Boron  is the chemical of name of symbol Bo"}
+print(symbol_data[choice])
+
