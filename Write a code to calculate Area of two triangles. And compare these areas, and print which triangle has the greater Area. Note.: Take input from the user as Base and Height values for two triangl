@@ -1,0 +1,18 @@
+base1 = float(input("enter the Base of Triangle 1 : "))
+hieght1 = float(input("enter the Hieght of Triangle 1 : "))
+area1 = ( base1 * hieght1) / 2 
+print("Area of Triangle 1 = " , area1)
+
+base2  = float(input("enter the Base of Triangle 2  : "))
+hieght2= float(input("enter the Hieght of Triangle 2 : "))
+area2 = ( base2  * hieght2) / 2
+print("Area of Triangle 2 = " , area2)
+
+
+if area1 > area2 :
+    print("Area of triangle 1 is Graeter than Area of Triangle 2 ")
+elif  area1 < area2 :
+    print("Area of triangle 2 is Graeter than Area of Triangle 1 ")
+else :
+    print("Areas of Both Triangle are Equal ")
+    
