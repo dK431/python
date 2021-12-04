@@ -1,0 +1,32 @@
+name = input("QUERRY 1 : What is you'r name : ")
+print("REPLY : Hello " + str(name) + " ! WELCOME !")
+
+add = input("QUERRY 2 : What is you'r address : ")
+print("REPLY : " + str(add) + " is a Beautyfull place")
+
+DOB = input("QUERRY 3 : What is you'r Date of Birth : ")
+print("REPLY : Nice !! " + str(DOB) + "  is you'r Date of Birth")
+
+hobb = input("QUERRY 4 : What is you'r Hobby : ")
+print("REPLY : ! WOW ! " + str(hobb) + " is you'r Hobby")
+
+prcnt = int(input("QUERRY 4 : What is you'r HSC Percentage : "))
+if prcnt <=60 :
+    print("REPLY : ! OH ! " , prcnt , " is you'r HSC Percentage")
+elif prcnt >=60:
+    print("REPLY : ! WOW ! " , prcnt , " is you'r HSC Percentage")
+
+sport = input("QUERRY 5 : What is you'r Favourite SPORTS  : ")
+print("REPLY : ! OSM ! " + str(sport) + " is you'r Favourite SPORTS ")
+
+
+aim = input("QUERRY 6 : What is you'r AIM in life  : ")
+print("REPLY : ! COOL ! " + str(aim) + " is you'r AIM in life")
+
+pers = input("QUERRY 7 : What is you'r Favourite SPORTS PERSON : ")
+print("REPLY : ! AMAZING ! " + str(pers) + " is you'r Favourite SPORTS Person")
+
+music = input("QUERRY 8 : which is Favourite SINGER : ")
+print("REPLY : ! BRILLANT ! You Love Music AND " + str(music) + " is you'r Favourite Singer")
+
+
