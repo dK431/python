@@ -1,0 +1,3 @@
+quan =float(input("enter the value(Pounds) :"))
+kg=(quan*0.453592)
+print("value converted into KG :", kg)
