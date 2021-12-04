@@ -1,0 +1,31 @@
+print(" This is Quiz Game , \n Thier are 3 Questions with 2 options , \n If the Answer is correct it will display correct , \n If it's wrong it will display wrong , \n And at the end of quiz it will show you you'r result ")
+print(" !STARTS!")
+num = 0
+print(" Que. 1  What is the area of Circle ? \n A. 3.142*r*r \n B. 2*3.142*r ")
+ans1 = input(" select A or B : ")
+if ans1 == 'A':
+    print(" ! Its a CORRECT answer! ")
+    num=num+1
+else :
+    print(" ! It's a WRONG answer ! ")
+print(" Que. 2  What is the area of  Triangle ? \n A. (Hieght*Base)/2 \n B. (Hieght*Base)/4) ")
+ans2 = input(" select A or B : ")
+if ans2 == 'A':
+    print(" ! Its a CORRECT answer! ")
+    num=num+1
+else :
+    print(" ! It's a WRONG answer ! ")
+    
+print(" Que. 3  What is the area of Sphere ? \n A. (3*3.142*r*r*r)/4 \n B. (3*3.142*r*r*r)/2 ")
+ans3 = input(" select A or B : ")
+if ans3 == 'A':
+    print(" ! Its a CORRECT answer! ")
+    num=num+1
+else :
+    print(" ! It's a WRONG answer ! ")
+
+if num >= 2:
+    print(" !WOW! " +str(num) + " is you'r Total Score ")
+if num <=1 :
+    print(" !OH ! " + str(num) + " is you'r Total Score ")
+    
