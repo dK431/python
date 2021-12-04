@@ -1,0 +1,9 @@
+x_var = int(input("enter the value of x : "))
+y_var = int(input("enter the value of y : "))
+
+equation = (2*x_var)+(3*y_var)
+
+if equation == 18 :
+    print (" !WOW! The equation '(2*x)+(3*y)=18 ' is coorect or satisfied !!")
+else :
+     print (" !OH! The equation '(2*x)+(3*y)=18 ' is not coorect or not satisfied !!")
